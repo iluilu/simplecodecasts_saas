@@ -9,6 +9,7 @@ class Users::RegistrationsController < Device::RegistrationsController
                else
                    resource.save
                end
+           end
         end
     end
     
